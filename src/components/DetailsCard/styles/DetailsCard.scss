@@ -1,0 +1,24 @@
+.details-list__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.details-list {
+    display: flex;
+    padding: 10px;
+}
+
+.details-list-left {
+ width: 200px;
+ font-weight: 600;
+ display: flex;
+}
+
+.details-list-right {
+  width: 500px;
+  display: flex;
+  word-break: break-all;
+}
